@@ -1,3 +1,5 @@
+package stack.practice;
+
 public class Stack {
 
     int stack[] = new int[5];
@@ -6,7 +8,7 @@ public class Stack {
     public void push(int data){
 
         if (top > 4){
-            System.out.println("Stack is full");
+            System.out.println("stack.practice.Stack is full");
         }
         else {
 
@@ -20,7 +22,7 @@ public class Stack {
         int data = 0;
 
         if (isEmpty()){
-            System.out.println("Stack is empty");
+            System.out.println("stack.practice.Stack is empty");
         }
         else {
             top--;
